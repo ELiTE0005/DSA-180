@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int i,n,sum;
+
+    sum = 0;
+
+    cout<<"enter upto which natural number: ";
+    cin>>n;
+
+    for(i=1 ; i<=n ; i = i+1){
+
+        sum = sum + i ;
+
+    }
+
+    cout<<sum<<endl;
+}
+=======
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int i,n,sum;
+
+    sum = 0;
+
+    cout<<"enter upto which natural number: ";
+    cin>>n;
+
+    for(i=1 ; i<=n ; i = i+1){
+
+        sum = sum + i ;
+
+    }
+
+    cout<<sum<<endl;
+}
+>>>>>>> fdcbf2a5197f40b36370d56f2e5190723b17ac29
