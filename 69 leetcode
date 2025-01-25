@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int mySqrt(int x) {
+
+        double root;
+
+        root = sqrt(x);
+
+        x = (int)root;
+
+        return x;
+        
+    }
+};
